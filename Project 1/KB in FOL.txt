@@ -1,0 +1,42 @@
+1.Anybody who  work or is lottery winner, has a house.
+2.Anybody who has a house, have enough payment.
+3.Any who party has enough payment.
+4.Who work, isn't a lottery winner.
+
+
+question Everybody who is lucky have enough payment
+
+ANY x : house(x) <= work(x) OR lucky(x)
+ANY x : enoughPayment(x) <= work(x) > 8h
+ANY x : party(x) <= NON work(x)
+ANY x : lucky(x) <= lottery(x)
+
+Q: ANY x : lucky(x) <= enoughPayment(x)
+
+[NON house,work]
+[NON house,lucky]
+[NON work>8, enoughPayment]
+[NON party, NON work]
+[NON lucky, lottery]
+[NON work, NON lottery]
+
+[lucky,NON enoughPayment]
+
+[NON lucky, lottery]
+
+--> [lottery,NON enoughPayment]
+
+[NON work, NON lottery]
+
+-->[NON work, NON enough Payment]
+
+[NON work, enough payment]
+
+--->[NON work, work ????]
+
+
+
+
+
+	
+
