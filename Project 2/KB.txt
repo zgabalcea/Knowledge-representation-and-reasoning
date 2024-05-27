@@ -1,0 +1,7 @@
+[[n(rhymes),poetry],[n(music),n(poetry), singer], [n(singer),n(fans), succesful_singer]]
+
+poetry
+singer.
+fans.
+
+n(succesful_singer)

@@ -1,0 +1,12 @@
+
+if you write rhymes you make poetry.
+if you make muscic, and poetry, you are a singer.
+if you are a singer and have 100.000 fans, you are succesful singer.
+
+are you write rhymes?
+are you make music?
+Have you 100.000 fans?
+
+[n(rhymes),poetry]
+[n(music),n(poetry), singer]
+[n(singer),n(fans), succesful_singer]

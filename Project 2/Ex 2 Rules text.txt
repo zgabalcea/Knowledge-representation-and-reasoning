@@ -1,0 +1,8 @@
+
+[or(political_regime/oppresive, income/lower), life_quality/lower].
+[or(political_regime/democratic, income/average), life_quality/medium].
+[or(political_regime/altruist, income/high), life_quality/high].
+
+%If the political regime is oppresive, or the average income is low, then the quality life is lower.
+%If the political regime is democratic, or the average income is medium then the quality life is medium.
+%If the political regime is altruist, or the average income is high, then the quality life is high.
